@@ -1,0 +1,56 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\regis.ntwari\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add @react-navigation/native
+
+PATH: 
+  C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk-11.0.12\bin;C:\Users\regis.ntwari\Downloads\apache-maven-3.8.3-bin\apache-maven-3.8.3\bin;C:\Users\regis.ntwari\AppData\Local\Programs\Python\Python38\Scripts\;C:\Users\regis.ntwari\AppData\Local\Programs\Python\Python38\;C:\Users\regis.ntwari\AppData\Local\Microsoft\WindowsApps;C:\Users\regis.ntwari\AppData\Roaming\npm;C:\Users\regis.ntwari\AppData\Local\Programs\Microsoft VS Code\bin
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  14.18.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: connect ETIMEDOUT 104.16.21.35:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)
+
+npm manifest: 
+  {
+    "main": "node_modules/expo/AppEntry.js",
+    "scripts": {
+      "start": "expo start",
+      "android": "expo start --android",
+      "ios": "expo start --ios",
+      "web": "expo start --web",
+      "eject": "expo eject",
+      "lint": "eslint . --ext .js"
+    },
+    "dependencies": {
+      "@expo-google-fonts/inter": "^0.2.0",
+      "@expo-google-fonts/lato": "^0.2.0",
+      "@expo-google-fonts/oswald": "^0.2.0",
+      "expo": "~43.0.0",
+      "expo-font": "~10.0.3",
+      "expo-status-bar": "~1.1.0",
+      "react": "17.0.1",
+      "react-dom": "17.0.1",
+      "react-native": "0.64.2",
+      "react-native-paper": "^4.10.0",
+      "react-native-svg": "^12.1.1",
+      "react-native-web": "0.17.1",
+      "styled-components": "^5.3.3"
+    },
+    "devDependencies": {
+      "@babel/core": "^7.12.9"
+    },
+    "private": true
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
